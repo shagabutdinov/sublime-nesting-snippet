@@ -4,6 +4,7 @@
     "command": "insert_snippet",
     "args": {"contents": "'$0'"},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
       {"key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true },
@@ -17,6 +18,7 @@
     "command": "insert_snippet_enhanced",
     "args": {"contents": "'${0:$indented_selection}'"},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
@@ -28,6 +30,7 @@
     "command": "insert_snippet",
     "args": {"contents": "'${0:$SELECTION}'"},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "not_equal", "operand": 1},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
@@ -51,6 +54,7 @@
   //   "command": "insert_snippet",
   //   "args": {"contents": "'$1': $2,", "forward": true},
   //   "context": [
+  //     {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
   //     {"key": "in_hash_table", "operator": "equal", "operand": true, "match_all": true},
   //     {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
   //     {"key": "preceding_128_bytes_b", "operator": "regex_contains", "operand": ",\\s*$", },
@@ -77,6 +81,7 @@
     "command": "insert_snippet_enhanced",
     "args": {"contents": "\"${0:$indented_selection}\""},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
@@ -88,6 +93,7 @@
     "command": "insert_snippet_enhanced",
     "args": {"contents": "\"${0:$SELECTION}\""},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "not_equal", "operand": 1},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
@@ -111,6 +117,7 @@
   //   "command": "insert_snippet",
   //   "args": {"contents": "\"$1\": $2,", "forward": true},
   //   "context": [
+  //     {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
   //     {"key": "in_hash_table", "operator": "equal", "operand": true, "match_all": true},
   //     {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
   //     {"key": "preceding_128_bytes_b", "operator": "regex_contains", "operand": ",\\s*$"},
@@ -122,6 +129,7 @@
   //   "keys": ["enter"],
   //   "command": "insert_hash_table_token_scaffold",
   //   "context": [
+  //     {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
   //     {"key": "in_hash_table", "operator": "equal", "operand": true, "match_all": true},
   //     {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
   //     {"key": "preceding_128_bytes_b", "operator": "regex_contains", "operand": ",\\s{0,1}$"},
@@ -134,6 +142,7 @@
     "command": "insert_snippet_enhanced",
     "args": {"contents": "{${0:$indented_selection}}"},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
@@ -145,6 +154,7 @@
     "command": "insert_snippet",
     "args": {"contents": "{${0:$SELECTION}}"},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "not_equal", "operand": 1},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
@@ -156,6 +166,7 @@
     "command": "insert_snippet_enhanced",
     "args": {"contents": "[${0:$indented_selection}]"},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
@@ -167,6 +178,7 @@
     "command": "insert_snippet",
     "args": {"contents": "[${0:$SELECTION}]"},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "not_equal", "operand": 1},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
@@ -178,6 +190,7 @@
     "command": "insert_snippet_enhanced",
     "args": {"contents": "(${0:$indented_selection})"},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
@@ -189,6 +202,7 @@
     "command": "insert_snippet",
     "args": {"contents": "(${0:$SELECTION})"},
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "not_equal", "operand": 1},
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }

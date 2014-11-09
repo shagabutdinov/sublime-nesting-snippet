@@ -44,3 +44,7 @@ Fix wrong indentation issue after wrapping selected contents to snippet.
       [extra tabs here]c})
 
   ```
+
+### Dependencies
+
+* [SnippetCaller](https://github.com/shagabutdinov/sublime-snippet-caller)
