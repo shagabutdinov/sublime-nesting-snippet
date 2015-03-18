@@ -5,11 +5,11 @@
     "args": {"contents": "'$0'"},
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-      {"key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true },
-      {"key": "preceding_text", "operator": "not_regex_contains", "operand": "['a-zA-Z0-9_]$", "match_all": true },
-      {"key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
+      {"key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true},
+      {"key": "preceding_text", "operator": "not_regex_contains", "operand": "['a-zA-Z0-9_]$", "match_all": true},
+      {"key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true}
     ]
   },
 
@@ -20,8 +20,8 @@
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
     ]
   },
 
@@ -32,8 +32,8 @@
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "not_equal", "operand": 1},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
     ]
   },
 
@@ -43,9 +43,9 @@
     "args": {"by": "characters", "forward": true},
     "context":
     [
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-      {"key": "following_text", "operator": "regex_contains", "operand": "^'", "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
+      {"key": "following_text", "operator": "regex_contains", "operand": "^'", "match_all": true}
     ]
   },
 
@@ -68,11 +68,11 @@
     "args": {"contents": "\"$0\""},
     "context":
     [
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-      {"key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true },
-      {"key": "preceding_text", "operator": "not_regex_contains", "operand": "[\"a-zA-Z0-9_]$", "match_all": true },
-      {"key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.double", "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
+      {"key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true},
+      {"key": "preceding_text", "operator": "not_regex_contains", "operand": "[\"a-zA-Z0-9_]$", "match_all": true},
+      {"key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.double", "match_all": true}
     ]
   },
 
@@ -83,8 +83,8 @@
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
     ]
   },
 
@@ -95,8 +95,8 @@
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "not_equal", "operand": 1},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
     ]
   },
 
@@ -106,9 +106,9 @@
     "args": {"by": "characters", "forward": true},
     "context":
     [
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-      {"key": "following_text", "operator": "regex_contains", "operand": "^\"", "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
+      {"key": "following_text", "operator": "regex_contains", "operand": "^\"", "match_all": true}
     ]
   },
 
@@ -139,13 +139,28 @@
 
   {
     "keys": ["{"],
+    "command": "run_macro_file",
+    "args": {
+      "file": "res://Packages/NestingSnippet/macro/select_statement_and_insert_braces.sublime-macro"
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+      {"key": "num_selections", "operator": "equal", "operand": 1},
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": true},
+      {"key": "following_text", "operator": "not_regex_contains", "operand": "^\\s*$"}
+    ]
+  },
+
+  {
+    "keys": ["{"],
     "command": "insert_snippet_enhanced",
     "args": {"contents": "{${0:$indented_selection}}"},
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true},
     ]
   },
 
@@ -156,8 +171,23 @@
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "not_equal", "operand": 1},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
+    ]
+  },
+
+  {
+    "keys": ["["],
+    "command": "run_macro_file",
+    "args": {
+      "file": "res://Packages/NestingSnippet/macro/select_statement_and_insert_brackets.sublime-macro"
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+      {"key": "num_selections", "operator": "equal", "operand": 1},
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": true},
+      {"key": "following_text", "operator": "not_regex_contains", "operand": "^\\s*$"}
     ]
   },
 
@@ -168,8 +198,8 @@
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
     ]
   },
 
@@ -180,8 +210,23 @@
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "not_equal", "operand": 1},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
+    ]
+  },
+
+  {
+    "keys": ["("],
+    "command": "run_macro_file",
+    "args": {
+      "file": "res://Packages/NestingSnippet/macro/select_statement_and_insert_parenthesis.sublime-macro"
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+      {"key": "num_selections", "operator": "equal", "operand": 1},
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": true},
+      {"key": "following_text", "operator": "not_regex_contains", "operand": "^\\s*$"}
     ]
   },
 
@@ -192,8 +237,8 @@
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
     ]
   },
 
@@ -204,8 +249,53 @@
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "num_selections", "operator": "not_equal", "operand": 1},
-      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
+    ]
+  },
+
+  {
+    "keys": [")"],
+    "command": "run_macro_file",
+    "args": {
+      "file": "res://Packages/NestingSnippet/macro/insert_parenthesis_and_go_back.sublime-macro"
+    },
+
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+      {"key": "num_selections", "operator": "equal", "operand": 1},
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false},
+    ]
+  },
+
+  {
+    "keys": ["]"],
+    "command": "run_macro_file",
+    "args": {
+      "file": "res://Packages/NestingSnippet/macro/insert_brackets_and_go_back.sublime-macro"
+    },
+
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+      {"key": "num_selections", "operator": "equal", "operand": 1},
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false},
+    ]
+  },
+
+  {
+    "keys": ["}"],
+    "command": "run_macro_file",
+    "args": {
+      "file": "res://Packages/NestingSnippet/macro/insert_braces_and_go_back.sublime-macro"
+    },
+
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+      {"key": "num_selections", "operator": "equal", "operand": 1},
+      {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+      {"key": "selection_empty", "operator": "equal", "operand": false},
     ]
   },
 

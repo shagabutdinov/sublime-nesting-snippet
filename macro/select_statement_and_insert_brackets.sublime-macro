@@ -1,0 +1,16 @@
+[
+  {
+    "command": "select_current_token",
+  },
+  {
+    "command": "insert_snippet_enhanced",
+    "args": {"contents": "[${0:$indented_selection}]"},
+  },
+  {
+    "command": "move",
+    "args": {
+      "by": "characters",
+      "forward": false,
+    }
+  },
+]
