@@ -1,0 +1,11 @@
+[
+  {
+    "command": "remove_nesting_closer",
+  },
+
+  {
+    "command": "insert",
+    "args": {"characters": "]"},
+  },
+
+]
