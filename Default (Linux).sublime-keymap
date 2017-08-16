@@ -46,7 +46,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "following_text_end", "operator": "not_regex_contains", "operand": "^\\s*[,\\]})]", "match_all": true},
@@ -75,7 +75,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source\\.(ruby|go)"},
@@ -104,7 +104,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "following_text_end", "operator": "regex_contains", "operand": "^\\s*([`'\"]|$)", "match_all": true},
       {"key": "nesting", "operator": "equal", "operand": "[", "match_all": true},
@@ -131,7 +131,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "following_128_chars_end", "operator": "regex_contains", "operand": "^([^\\s,\\]\\)\\}]|\\s*\n)", "match_all": true},
@@ -159,7 +159,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
       {"key": "following_text_end", "operator": "not_regex_contains", "operand": "^\\s*:", "match_all": true},
@@ -194,7 +194,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source\\.(ruby|php)"},
@@ -222,7 +222,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "preceding_text_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
@@ -253,7 +253,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "preceding_text_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
@@ -284,7 +284,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*\n\\s*$", "match_all": true},
       {"key": "following_text_end", "operator": "regex_contains", "operand": "^\\s*$", "match_all": true},
@@ -324,7 +324,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*\n\\s*$", "match_all": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source\\.(ruby|php)"},
@@ -412,7 +412,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "following_text_end", "operator": "not_regex_contains", "operand": "^\\s*[,\\]})]", "match_all": true},
@@ -441,7 +441,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source\\.(ruby|go)"},
@@ -470,7 +470,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "following_text_end", "operator": "regex_contains", "operand": "^\\s*([`'\"]|$)", "match_all": true},
       {"key": "nesting", "operator": "equal", "operand": "[", "match_all": true},
@@ -497,7 +497,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "following_128_chars_end", "operator": "regex_contains", "operand": "^([^\\s,\\]\\)\\}]|\\s*\n)", "match_all": true},
@@ -525,7 +525,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
       {"key": "following_text_end", "operator": "not_regex_contains", "operand": "^\\s*:", "match_all": true},
@@ -560,7 +560,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source\\.(ruby|php)"},
@@ -588,7 +588,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "preceding_text_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
@@ -619,7 +619,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "preceding_text_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
@@ -650,7 +650,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*\n\\s*$", "match_all": true},
       {"key": "following_text_end", "operator": "regex_contains", "operand": "^\\s*$", "match_all": true},
@@ -690,7 +690,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*\n\\s*$", "match_all": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source\\.(ruby|php)"},
@@ -778,7 +778,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "following_text_end", "operator": "not_regex_contains", "operand": "^\\s*[,\\]})]", "match_all": true},
@@ -807,7 +807,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source\\.(ruby|go)"},
@@ -836,7 +836,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "following_text_end", "operator": "regex_contains", "operand": "^\\s*([`'\"]|$)", "match_all": true},
       {"key": "nesting", "operator": "equal", "operand": "[", "match_all": true},
@@ -863,7 +863,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "following_128_chars_end", "operator": "regex_contains", "operand": "^([^\\s,\\]\\)\\}]|\\s*\n)", "match_all": true},
@@ -891,7 +891,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
       {"key": "following_text_end", "operator": "not_regex_contains", "operand": "^\\s*:", "match_all": true},
@@ -926,7 +926,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source\\.(ruby|php)"},
@@ -954,7 +954,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "preceding_text_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
@@ -985,7 +985,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "preceding_text_begin", "operator": "regex_contains", "operand": "[{,]\\s*$", "match_all": true},
@@ -1016,7 +1016,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*\n\\s*$", "match_all": true},
       {"key": "following_text_end", "operator": "regex_contains", "operand": "^\\s*$", "match_all": true},
@@ -1056,7 +1056,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*\n\\s*$", "match_all": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source\\.(ruby|php)"},
@@ -1144,7 +1144,7 @@
     "args": {"contents": "(${0:\n$indented_selection\n})"},
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "selection", "operator": "regex_contains", "operand": "\n"},
       {"key": "selection_empty", "operator": "equal", "operand": false},
       {"key": "selection", "operator": "not_regex_contains", "operand": "^(\\([\\S\\s]*\\)|\\{[\\S\\s]*\\}|\\[[\\S\\s]*\\])$"},
@@ -1162,7 +1162,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "following_text", "operator": "regex_contains", "operand": "^[\\w\\(\\{\\[$]"},
@@ -1180,7 +1180,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source(?!.*(string|comment|yaml|css))"},
@@ -1199,7 +1199,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": false},
     ]
@@ -1216,7 +1216,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": false},
       {"key": "selection", "operator": "not_regex_contains", "operand": "^(\\([\\S\\s]*\\)|\\{[\\S\\s]*\\}|\\[[\\S\\s]*\\])$"},
@@ -1236,7 +1236,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
       {"key": "following_text_end", "operator": "regex_contains", "operand": "^\\)", "match_all": true},
     ]
@@ -1303,7 +1303,7 @@
     "args": {"contents": "[${0:\n$indented_selection\n}]"},
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "selection", "operator": "regex_contains", "operand": "\n"},
       {"key": "selection", "operator": "not_regex_contains", "operand": "^(\\([\\S\\s]*\\)|\\{[\\S\\s]*\\}|\\[[\\S\\s]*\\])$"},
       {"key": "selection_empty", "operator": "equal", "operand": false},
@@ -1321,7 +1321,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "following_text", "operator": "regex_contains", "operand": "^[\\w\\(\\{\\[$]"},
@@ -1339,7 +1339,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source(?!.*(string|comment|yaml|css))"},
@@ -1358,7 +1358,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": false},
     ]
@@ -1375,7 +1375,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": false},
       {"key": "selection", "operator": "not_regex_contains", "operand": "^(\\([\\S\\s]*\\)|\\{[\\S\\s]*\\}|\\[[\\S\\s]*\\])$"},
@@ -1395,7 +1395,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
       {"key": "following_text_end", "operator": "regex_contains", "operand": "^]", "match_all": true},
     ]
@@ -1462,7 +1462,7 @@
     "args": {"contents": "{${0:\n$indented_selection\n}}"},
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "selection", "operator": "regex_contains", "operand": "\n"},
       {"key": "selection_empty", "operator": "equal", "operand": false},
       {"key": "selection", "operator": "not_regex_contains", "operand": "^(\\([\\S\\s]*\\)|\\{[\\S\\s]*\\}|\\[[\\S\\s]*\\])$"},
@@ -1480,7 +1480,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "following_text", "operator": "regex_contains", "operand": "^[\\w\\(\\{\\[$]"},
@@ -1498,7 +1498,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": true},
       {"key": "scope", "operator": "regex_contains", "operand": "source(?!.*(string|comment|yaml|css))"},
@@ -1517,7 +1517,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": false},
     ]
@@ -1534,7 +1534,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "num_selections", "operator": "equal", "operand": 1},
       {"key": "selection_empty", "operator": "equal", "operand": false},
       {"key": "selection", "operator": "not_regex_contains", "operand": "^(\\([\\S\\s]*\\)|\\{[\\S\\s]*\\}|\\[[\\S\\s]*\\])$"},
@@ -1554,7 +1554,7 @@
 
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
       {"key": "following_text_end", "operator": "regex_contains", "operand": "^}", "match_all": true},
     ]
@@ -1570,7 +1570,7 @@
     },
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+      {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
       {"key": "preceding_text", "operator": "regex_contains", "operand": "\\{$", "match_all": true},
       {"key": "following_text", "operator": "regex_contains", "operand": "^\\}", "match_all": true}
@@ -1585,7 +1585,7 @@
   //   },
   //   "context": [
   //     {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
   //     {"key": "following_text", "operator": "regex_contains", "operand": "^\\s*[\\},]", "match_all": true},
   //     {"key": "nesting", "operator": "equal", "operand": "{", "match_all": true},
   //   ]
@@ -1601,7 +1601,7 @@
   //   },
   //   "context": [
   //     {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
   //     {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "[{,]\\s*\\w+$", "match_all": true},
   //     {"key": "following_text", "operator": "not_regex_contains", "operand": "^\\s*[\\},]", "match_all": true},
   //     {"key": "following_text_end", "operator": "regex_contains", "operand": "^\\s*[`'\"]?\\w+[`'\"]?:", "match_all": true},
@@ -1617,7 +1617,7 @@
   //   },
   //   "context": [
   //     {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
   //     {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
   //     {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "(,|[=(]\\s*{)\\s*$", "match_all": true},
   //     {"key": "following_text_end", "operator": "regex_contains", "operand": "^\\s*$", "match_all": true},
@@ -1633,7 +1633,7 @@
   //   },
   //   "context": [
   //     {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
   //     {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
   //     {"key": "preceding_128_chars_begin", "operator": "regex_contains", "operand": "(,|[=(]\\s*{)\\s*$", "match_all": true},
   //     {"key": "following_text_end", "operator": "regex_contains", "operand": "^\\s*$", "match_all": true},
@@ -1649,7 +1649,7 @@
   //   },
   //   "context": [
   //     {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
   //     {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
   //     {"key": "following_text_end", "operator": "regex_contains", "operand": "^,$", "match_all": true},
   //     {"key": "nesting", "operator": "equal", "operand": "{", "match_all": true},
@@ -1664,7 +1664,7 @@
   //   },
   //   "context": [
   //     {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
   //     {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
   //     {"key": "following_text_end", "operator": "regex_contains", "operand": "^,$", "match_all": true},
   //     {"key": "nesting", "operator": "regex_contains", "operand": "[([]", "match_all": true},
@@ -1679,7 +1679,7 @@
   //   },
   //   "context": [
   //     {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
-  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml))", "match_all": true},
+  //     {"key": "scope_part", "operator": "regex_contains", "operand": "source(?!.*(string|comment|css|yaml|jsx))", "match_all": true},
   //     {"key": "preceding_text_begin", "operator": "regex_contains", "operand": "[`'\"]\\s*$", "match_all": true},
   //     {"key": "nesting", "operator": "regex_contains", "operand": "[([{]", "match_all": true},
   //   ]
